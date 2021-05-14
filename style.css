@@ -1,0 +1,126 @@
+.site
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width:1440px;
+    height:900px ;
+}
+.SmthAbMe
+{
+    position: absolute;
+    left: 90px;
+    top: 0px;
+    width: 1260px;
+    height: 418px;
+    background-color: #9dd8ff;
+}
+.myINST
+{
+    position :absolute;
+    left: 1050px;
+    top : 5px;
+    width: 96px;
+    height: 59px;  
+    animation-name: moveRightLeft;
+    animation-duration: 2s; 
+}
+.myVK
+{
+    position :absolute;
+    left: 1142px;
+    top : 0px;
+    width: 96px;
+    height: 59px;
+    animation-name: moveUpDown;
+    animation-duration: 1s;
+}
+.MyImg  
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 388px;
+    height: 418px;
+}
+
+.TxtAbMe
+{
+    position: absolute;
+    left: 406px;
+    top: 111px;
+    width: 846px;
+    height: 307px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    opacity:0; 
+    animation-name: showSlowly;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+    animation-delay: 1,5s;
+}
+
+.MyName
+{
+    position: absolute;
+    left: 455px;
+    top: -20px;
+    width: 534px;
+    height: 83px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    opacity:0; 
+    animation-name: showSlowly ;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+.left
+{
+    position: absolute;
+    left: -74px;
+    top: 0px;
+    width: 164px;
+    height: 880px;
+}
+.right
+{
+    position: absolute;
+    left: 1350px;
+    top: 0px;
+    width: 150px;
+    height: 880px;
+}
+.BODY
+{
+    position: absolute;
+    left: 90px;
+    top: 418px;
+    width: 1264px;
+    height: 482px;  
+}
+@keyframes moveRightLeft{
+    0% {
+    transform: translateX(-200px);
+    }
+    100% {
+    transform: translateX(0px);
+    }
+}
+@keyframes moveUpDown{
+    0% {
+    transform: translateY(-200px);
+    }
+    100% {
+    transform: translateY(0px);
+    }
+}
+@keyframes showSlowly{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
